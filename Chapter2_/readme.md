@@ -18,3 +18,25 @@
     4. and or not       and有一个错误就返回，or有一个正确就返回
     5. 逻辑运算符  < <=  > >= == != is (is not)
     6. None 特殊字符，不是False，逻辑运算时可以是False的
+
+
+### 字符串
+    1. '' or ""  name ='hanwenlin'  单引号，双引号一样的
+    2. ''' '''  or """ """ 多行字符串
+    3. 字符串里面有',则使用""；有",则使用''
+    4. str(10)   '10'
+    5. 转义字符\    \\  \'  \"  \a  \b  \f  \n  \r  \t  \uxxxx  \Uxxxxxx  \v \ooo \xhh...
+    6. name = u'hanwenlin'  或者 name = b'hanwenlin'
+    7. path = r'C:\User\Admin'   当使用文件夹等，必须使用raw string 即r''
+    8. 字符串方法
+        1. str.replace('old','new')
+        2. str1 + str2
+        3. str.title()  每个单词大写开头
+        4. str.lower()    str.upper()   大小写
+        5. str.strip()  str.lstrip()  str.rstrip()    str.strip('12') 去掉首尾的1和2 默认去掉开始和末尾的空格，换行符
+        6. str.startswith(str2)   str.endswith()           字符串是否以str2字符串开头
+        7. str.split()                  text.split('.',2)  text=text = '10.13.37.1'
+        8. ' '.join(text)    text为列表，元祖等
+        9. str.isspace()            是否是空字符串 \t ' ' \n都返回True
+        10. str.isalpha()  .isalnum()  .isdigit()  .islower()    .isupper()   .istitle()   .isspace()   
+        11. bin()  hex()    range()   type()    len()   format()  

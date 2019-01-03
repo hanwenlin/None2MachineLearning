@@ -1,0 +1,10 @@
+一、Python2与Python3的区别
+    1、python2在python2.7,以后不再更新，2020那年不再有服务支持
+    2、python3中print()是一个函数，而不是一个语句
+    3、python3中的str都是unicode类型，只有input,没有raw_input
+    4、很多模块的名字发生了改变
+    5、在python3里，reduce()函数已经从全局名字空间移除，现在被放置在fucntools模块
+    6、在python3里，apply()函数不再存在；必须使用星号标记
+    7、...
+
+二、

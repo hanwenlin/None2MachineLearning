@@ -1,1 +1,1 @@
-comments.py文件是 联系注释和文档字符串的
+comments.py文件是 练习注释和文档字符串的

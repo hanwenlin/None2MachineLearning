@@ -56,5 +56,33 @@
         3. list[:]
         4. list[::-1]    反向
         5. list[1:5:2]      #相隔两个取
+        
+        
+        
+### 集合   
+    1. 定义  my_set  = set()
+    2. 一个元素     {1}   {1，}
+    3. 多个元素，集合里面可以包含集合，列表等
+    4. my_set.add()  my_set.remove() my_set.discard()  my_set.pop() my_set.clear() x in my_set
+    5. my_set.update([4,5])     添加多个元素
+    6. - 差集  |并集  &交集   ^ 和&相反    set1 -set2
+    7. len(my_set)
+    8. 集合切片
+    9. list,tuple转成集合，就是去重了，顺序也变了，集合无序不重复的
+    
+    
+### 元祖
+    1. 和list基本一样，只是不可变
+    2. 定义  my_tuple = ()  my_tuple = tuple()
+    3. my_tuple = 1,  my_tuple = (1,)
+    
+### 字典
+    1. my_dict = {}  my_dict = dict()
+    2. 赋值，键值对 key：value
+    3. my_dict[key1]  = value1
+    4. my_dict.get(key)  my_dict[key]不存在会报错
+    5. my_dict.keys()  my_dict.values()   my_dict.values()
+    6. len(my_dict)
+    7. key in my_dict
       
     

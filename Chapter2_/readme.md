@@ -40,3 +40,21 @@
         9. str.isspace()            是否是空字符串 \t ' ' \n都返回True
         10. str.isalpha()  .isalnum()  .isdigit()  .islower()    .isupper()   .istitle()   .isspace()   
         11. bin()  hex()    range()   type()    len()   format()  
+        
+ ### 列表
+    1. 定义 my_list = []  my_list = list()
+    2. 一个元素，多个元素，嵌套列表 [[1,2],[4,5,7]]
+    3. list.extend()  .append   .pop    .push
+    4. list.remove(4)   删除4   list.insert(4,'one')  第五个位置插入'one'
+    5. list.index(5)  5在列表中的位置
+    6. len(list)   min()   max（） list.count()  list.reverse()反向
+    7. list.sort()      sorted(list)  sort()原列表发生了改变，返回None  sorted()原列表不变，返回为排序后的结果
+    8. ==  ！=  in   not in
+    9. 切片
+        1. list[3]
+        2. list[1:4]
+        3. list[:]
+        4. list[::-1]    反向
+        5. list[1:5:2]      #相隔两个取
+      
+    

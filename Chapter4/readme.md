@@ -38,11 +38,24 @@
         
      4. 非固定参数 *args, **kwargs
      def fun(a,b=4,*args,**kwargs):
-        pass
-     *args参数是剩余的所有参数，**kwargs是字典参数  
+        print(locals())                 //locals（）  可以看到所有的局部参数
+      *args参数是剩余的所有参数，**kwargs是字典参数  
      fun('han',5,7,8,one=1,two=2)  
      {'a': 'han', 'b': 5, 'args': (7, 8), 'kwargs': {'one': 1, 'two': 2}}
      
+     
+**全局与局部变量**  
+在子程序中定义的变量称为局部变量，在程序的一开始定义的变量称为全局变量。
+全局变量作用域是整个程序，局部变量作用域是定义该变量的子程序。
+当全局变量与局部变量同名时：
+在定义局部变量的子程序内，局部变量起作用；在其它地方全局变量起作用。  
+函数中  global name ='hanwenlin'       name就是一个全局变量，函数中也是可以修改这个全局变量的  
+
+####函数返回值可以是数字，字符串，列表，元祖，集合，字典，以及复合结构
+def fun():
+    return 2        // return 2.5  return 'han'  return [3,'han']   return 'zhu','lu'  return {'one':1,'two':2}     return {2,5}               
+
+
         
         
         

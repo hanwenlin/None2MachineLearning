@@ -51,7 +51,7 @@
 在定义局部变量的子程序内，局部变量起作用；在其它地方全局变量起作用。  
 函数中  global name ='hanwenlin'       name就是一个全局变量，函数中也是可以修改这个全局变量的  
 
-####函数返回值可以是数字，字符串，列表，元祖，集合，字典，以及复合结构
+#### 函数返回值可以是数字，字符串，列表，元祖，集合，字典，以及复合结构
 def fun():
     return 2        // return 2.5  return 'han'  return [3,'han']   return 'zhu','lu'  return {'one':1,'two':2}     return {2,5}               
 

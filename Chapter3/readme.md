@@ -56,3 +56,14 @@
   3. try except else finally
   ##### else 接在except后面，如果一个我们设置的异常都没有，那么执行else语句
   #####  finally 不管是否有异常捕获，都会执行
+  ##### try except except...  可以有多个异常，但是前面的异常不要包含后面的异常
+  
+### 文件
+  1. f = open('filename','r',encoding='utf8)      'r','w','a','rb','wb','ab'  mode='r'  encoding='gbk'...
+  2. for i in open(filename,'w'):pass
+  3. with open(filename,'r') as f:pass
+  4. f.readline()   f.readlines()   f.read()  f.write()  f.writelines()
+  5. f.close()          with open()..不需要关闭文件，其它的都需要关闭文件
+  6. f.tell()       文件句柄当前位置
+  7. f.flush()      刷新，把在缓冲区的字符全部写进或者读出来
+  8. 
